@@ -25,7 +25,8 @@ class Solution {
                 stt++;
                 j--;
             }
-            if (flag){
+            if (flag)
+            {
                 st.add(part);
                 Partitioning(ques.substring(i),st);
                 st.remove(st.size()-1);
