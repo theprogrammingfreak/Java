@@ -10,6 +10,7 @@ public class Solution {
                 l++;
             }
         }
+        
         return l;
     }
 }
