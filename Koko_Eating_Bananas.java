@@ -12,6 +12,7 @@ class Solution {
         }
         return low;
     }
+    
     public static boolean rate(int[] piles,int mid,int h)
     {
         int count=0;
