@@ -5,7 +5,7 @@ class Solution {
         int left = 0, right = k-1, maxIndex = maxIndex(nums, 0, k-1);
         while(true){
             if(maxIndex >= left) {
-                res[left++] = nums[maxIndex];
+                res[left++] = nums[maxIndex]; 
                 right++;
                 if(right == n) break;
                 if(nums[right] >= nums[maxIndex]) maxIndex = right;
