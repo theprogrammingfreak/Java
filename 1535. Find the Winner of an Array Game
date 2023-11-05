@@ -1,0 +1,14 @@
+class Solution {
+    public int getWinner(int[] arr, int k) {
+        int win=arr[0];
+        int count=0;
+        for(int i=1;i<arr.length;i++){
+            if(arr[i] > win){
+                count=0;
+                win=arr[i];
+            }
+            if(++count==k) break;
+        }
+        return win;
+    }
+}
